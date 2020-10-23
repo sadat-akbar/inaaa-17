@@ -1,0 +1,22 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+.footer {
+    color: rgb(245, 245, 223);
+    bottom: 100;
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 23px;
+    font-family: Garamond, serif;
+}

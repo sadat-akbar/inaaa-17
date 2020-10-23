@@ -1,0 +1,75 @@
+<PERCOBAAN.html>
+<html>
+<center>
+<body onload="startTime()">
+<font size="5">
+<body>
+<head>
+<title>BUAT KAMU</title>
+<link rel="stylesheet" type="text/css" href="ANIMASI.css">
+<link rel="stylesheet" type="text/css" href="QUOTE.css">
+<link rel="stylesheet" type="text/css" href="BLINK.css">
+</br>
+<div class="animation-area">
+<div class="square">
+<span></span>
+<span></span>
+<span></span>
+<div class="content">
+<h2>HAI!</h2>
+<p>Jangan Lupa SENYUM Hari Ini!</p>
+</div>
+</div>
+<br>
+</font>
+<font size="7">
+<font color="#778899">
+<font face = "Courier New;">
+<head>
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500); 
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+</font>
+<div id="txt"></div>
+</center>
+</div>
+</font>
+<font color="#FFEBCD">
+<body>
+<center>
+<style>
+</style>
+<span class="blink">Kalau lelah, istirahat ya. Bukan nyerah!</span>
+</center>
+</font>
+</body>
+    <body>
+        <div class="footer">
+        <center>
+        <footer>
+        <blockquote>
+            <p id="quotation">"Kamu Hebat. Kamu kuat. Kamu bisa."</p>
+                <br>
+                <p id="source">Dari Aku Untuk Kamu.</p>
+        </blockquote>
+        </footer>
+        </center>
+        </div>
+    </body>
+</body>
+</html>
